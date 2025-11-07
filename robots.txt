@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://unitedhealthcareproviderportal.github.io/sitemap.xml
