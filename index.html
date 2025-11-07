@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>activate.uhc.com — How to Activate Your UnitedHealthcare Account (Unofficial Guide)</title>
+
+  <!-- Canonical & Basics -->
+  <link rel="canonical" href="https://unitedhealthcareproviderportal.github.io/">
+  <meta name="description" content="Step-by-step help for activate.uhc.com. See what you need, how verification works, and how to fix common errors—then continue on the official UHC portal. Unofficial guide." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#005A9C" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="activate.uhc.com — How to Activate Your UHC Account (Unofficial)">
+  <meta property="og:description" content="Clear steps to use activate.uhc.com, plus fixes for common issues. Continue on the official portal.">
+  <meta property="og:url" content="https://unitedhealthcareproviderportal.github.io/">
+  <meta property="og:site_name" content="UHC Activation Help (Unofficial)">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://unitedhealthcareproviderportal.github.io/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
+
+    /* UHC-ish palette (not official) */
+    .uhc-blue   { background-color:#005A9C; }
+    .uhc-blue-t { color:#005A9C; }
+    .uhc-green  { background-color:#6BB745; }
+    .uhc-green-t{ color:#6BB745; }
+
+    .glass { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background-color: rgba(255,255,255,.72); }
+    @media (prefers-color-scheme: dark){ .glass{ background-color: rgba(15,23,42,.62);} }
+
+    .pill a { border-radius: 9999px; padding:.5rem 1rem; transition: all .2s ease; }
+    .pill a:hover { background: rgba(0,90,156,.08); }
+
+    .hvr { transition: transform .2s ease, box-shadow .2s ease; }
+    .hvr:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
+
+    .hero-bg {
+      background:
+        radial-gradient(1200px 600px at 80% -10%, rgba(107,183,69,.25), transparent 60%),
+        linear-gradient(135deg, #005A9C 0%, #005A9C 60%, #024c84 60%, #024c84 100%);
+      background-size: cover;
+    }
+
+    .reveal { opacity: 0; transform: translateY(10px); transition: all .6s ease; }
+    .reveal.show { opacity:1; transform: none; }
+  </style>
+
+  <!-- Schema.org: Organization (Unofficial) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"UHC Activation Help (Unofficial)",
+    "url":"https://unitedhealthcareproviderportal.github.io/",
+    "logo":"https://unitedhealthcareproviderportal.github.io/icon.png",
+    "sameAs":[
+      "https://www.uhc.com/"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: HowTo (targeting activate.uhc.com intent) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HowTo",
+    "name":"How to use activate.uhc.com to activate your UnitedHealthcare account",
+    "description":"Unofficial step-by-step guide for activate.uhc.com: what you need, identity verification, and fixes.",
+    "totalTime":"PT5M",
+    "supply":[{"@type":"HowToSupply","name":"Member ID (or SSN last 4), Date of Birth, ZIP code, Email/Phone"}],
+    "step":[
+      {"@type":"HowToStep","name":"Open activate.uhc.com","text":"Go to the official portal: activate.uhc.com","url":"https://activate.uhc.com/"},
+      {"@type":"HowToStep","name":"Verify identity","text":"Enter Member ID (or SSN last 4), Date of Birth, ZIP code as on file."},
+      {"@type":"HowToStep","name":"Create login","text":"Choose username and strong password; set security questions."},
+      {"@type":"HowToStep","name":"Confirm code","text":"Receive a one-time code by email or SMS and enter it to verify."},
+      {"@type":"HowToStep","name":"Finish activation","text":"Sign in to manage benefits, ID cards, and claims."}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage (includes the keyword safely) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"What is activate.uhc.com?",
+       "acceptedAnswer":{"@type":"Answer","text":"activate.uhc.com is UnitedHealthcare’s official activation portal where members verify identity and create online access. This site is an unofficial help guide that links to the official portal."}},
+      {"@type":"Question","name":"How do I activate my UHC account at activate.uhc.com?",
+       "acceptedAnswer":{"@type":"Answer","text":"Go to activate.uhc.com, enter your Member ID (or SSN last 4), Date of Birth, and ZIP code; create a login and verify with a code."}},
+      {"@type":"Question","name":"Why doesn’t my info work on activate.uhc.com?",
+       "acceptedAnswer":{"@type":"Answer","text":"Ensure name/DOB/ZIP exactly match plan records and use the Member ID on your card. If it still fails, contact UHC support."}}
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-50">
+
+  <!-- Top Ribbon -->
+  <div class="uhc-blue text-white text-sm" role="region" aria-label="Site notice">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <p class="opacity-90">Unofficial help guide • We do not collect personal or health info</p>
+      <a href="https://activate.uhc.com/" class="underline underline-offset-2" target="_blank" rel="noopener">Go to official portal</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="border-b border-slate-200/70 dark:border-slate-800/60 bg-white/70 dark:bg-slate-900/60 backdrop-blur" role="banner">
+    <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl uhc-blue text-white font-bold">UH</span>
+        <span class="font-semibold">UHC Activation Help</span>
+        <span class="ml-2 text-xs px-2 py-1 rounded-full bg-slate-200/60 dark:bg-slate-800/60">Unofficial</span>
+      </a>
+      <nav class="hidden md:flex pill gap-2 text-sm font-medium" aria-label="Primary">
+        <a href="#what-is-activate">What is activate.uhc.com?</a>
+        <a href="#guide">Activation steps</a>
+        <a href="#uhc-errors">Errors & fixes</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#support">Support</a>
+      </nav>
+      <a href="https://activate.uhc.com/" target="_blank" rel="noopener" class="hidden md:inline-flex px-4 py-2 rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900 font-semibold">Official portal</a>
+      <button id="mBtn" class="md:hidden p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Open menu">☰</button>
+    </div>
+    <div id="mMenu" class="md:hidden hidden px-4 pb-3 space-y-1 text-sm" role="navigation" aria-label="Mobile">
+      <a class="block py-2" href="#what-is-activate">What is activate.uhc.com?</a>
+      <a class="block py-2" href="#guide">Activation steps</a>
+      <a class="block py-2" href="#uhc-errors">Errors & fixes</a>
+      <a class="block py-2" href="#faqs">FAQs</a>
+      <a class="block py-2" href="#support">Support</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero-bg" role="region" aria-label="Hero">
+    <div class="max-w-7xl mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div class="text-white space-y-5">
+        <span class="inline-flex items-center gap-2 bg-white/10 ring-1 ring-white/30 px-3 py-1 rounded-full text-xs font-semibold">Fast & clear steps</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          activate.uhc.com: Activate Your UnitedHealthcare Account (Unofficial Help)
+        </h1>
+        <p class="text-white/90 text-lg">
+          This page explains how <strong>activate.uhc.com</strong> works, what information you’ll need, and fixes for common errors—then sends you to the
+          <strong>official</strong> portal to finish. We are not affiliated with UnitedHealthcare.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#guide" class="px-6 py-3 rounded-full bg-white text-slate-900 font-semibold">See the steps</a>
+          <a href="https://activate.uhc.com/" target="_blank" rel="noopener" class="px-6 py-3 rounded-full border border-white/70 text-white font-semibold">Go to official portal</a>
+        </div>
+      </div>
+
+      <!-- Right: Quick checklist (no data collected) -->
+      <aside id="guide" class="glass rounded-2xl p-4 border border-slate-200/60 dark:border-slate-800/60" aria-label="Quick checklist">
+        <div class="flex items-center justify-between mb-2">
+          <h2 class="font-bold uhc-blue-t">Quick Activation Checklist</h2>
+          <span class="text-xs px-2 py-1 rounded-full bg-black/10 dark:bg-white/10">No login here</span>
+        </div>
+
+        <ul class="space-y-2 text-sm">
+          <li>☑ Member ID (or SSN last 4)</li>
+          <li>☑ Date of Birth</li>
+          <li>☑ ZIP Code on file</li>
+          <li>☑ Access to your email or phone</li>
+        </ul>
+
+        <div class="mt-3 text-xs text-slate-100/90 md:text-slate-700 dark:text-slate-400">
+          When ready, continue on the official site:
+          <a class="underline font-semibold" href="https://activate.uhc.com/" target="_blank" rel="noopener">activate.uhc.com →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- WHAT IS ACTIVATE -->
+  <section id="what-is-activate" class="max-w-7xl mx-auto px-4 py-12 reveal">
+    <h2 class="text-2xl md:text-3xl font-bold">What is activate.uhc.com?</h2>
+    <p class="mt-3 text-slate-700 dark:text-slate-300">
+      <strong>activate.uhc.com</strong> is UnitedHealthcare’s official portal where members verify their identity and create online access to benefits,
+      ID cards, and claims. This site is an <em>unofficial activation help guide</em> that explains the steps and links you to the official portal.
+    </p>
+    <ul class="mt-4 list-disc list-inside text-slate-700 dark:text-slate-300">
+      <li>Open the official site: <a class="uhc-blue-t font-semibold" href="https://activate.uhc.com/" target="_blank" rel="noopener">activate.uhc.com →</a></li>
+      <li>Have your Member ID (or SSN last 4), Date of Birth, and ZIP on file</li>
+      <li>Use a private device and modern browser for best results</li>
+    </ul>
+  </section>
+
+  <!-- HOW-TO STEPS -->
+  <section class="max-w-7xl mx-auto px-4 py-14 reveal" aria-labelledby="howto-heading">
+    <div class="flex items-center justify-between">
+      <h2 id="howto-heading" class="text-2xl md:text-3xl font-bold">Step-by-step guide</h2>
+      <a href="https://activate.uhc.com/" target="_blank" rel="noopener" class="uhc-blue-t font-semibold">Official portal →</a>
+    </div>
+
+    <ol class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 list-decimal list-inside">
+      <li class="hvr rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">1) Go to activate.uhc.com</h3>
+        <p class="text-slate-600 dark:text-slate-300 text-sm mt-1">Use a secure, private device and a modern browser.</p>
+      </li>
+      <li class="hvr rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">2) Verify identity</h3>
+        <p class="text-slate-600 dark:text-slate-300 text-sm mt-1">Enter Member ID (or SSN last 4), Date of Birth, and ZIP code.</p>
+      </li>
+      <li class="hvr rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">3) Create login</h3>
+        <p class="text-slate-600 dark:text-slate-300 text-sm mt-1">Choose a username and strong password; set security questions.</p>
+      </li>
+      <li class="hvr rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">4) Confirm code</h3>
+        <p class="text-slate-600 dark:text-slate-300 text-sm mt-1">Enter the one-time code sent by email or SMS to verify.</p>
+      </li>
+      <li class="hvr rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">5) Finish & sign in</h3>
+        <p class="text-slate-600 dark:text-slate-300 text-sm mt-1">Sign in to view benefits, ID cards, and claims.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- TROUBLESHOOT -->
+  <section id="uhc-errors" class="max-w-7xl mx-auto px-4 py-14 reveal" aria-labelledby="troubleshoot-heading">
+    <h2 id="troubleshoot-heading" class="text-2xl md:text-3xl font-bold">Common activate.uhc.com Errors & Fixes</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-4">
+      <article class="hvr rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">“We can’t find your info”</h3>
+        <ul class="list-disc list-inside text-sm mt-1 text-slate-700 dark:text-slate-300">
+          <li>Match name + DOB exactly as on your plan</li>
+          <li>Try the ZIP code your employer used</li>
+          <li>Use Member ID from your card or welcome email</li>
+        </ul>
+      </article>
+      <article class="hvr rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">Code not arriving</h3>
+        <ul class="list-disc list-inside text-sm mt-1 text-slate-700 dark:text-slate-300">
+          <li>Check spam/junk; wait 1–2 minutes, then resend</li>
+          <li>Try SMS instead of email (or vice versa)</li>
+          <li>Confirm the contact on file is correct</li>
+        </ul>
+      </article>
+      <article class="hvr rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">Password requirements</h3>
+        <ul class="list-disc list-inside text-sm mt-1 text-slate-700 dark:text-slate-300">
+          <li>12+ characters with mixed types</li>
+          <li>Don’t reuse old passwords</li>
+          <li>Store in a reputable password manager</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- HELP CENTER / FAQ -->
+  <section id="faqs" class="max-w-5xl mx-auto px-4 py-14 reveal" aria-labelledby="faq-heading">
+    <div class="text-center max-w-2xl mx-auto">
+      <h2 id="faq-heading" class="text-2xl md:text-3xl font-bold">Help Center (Unofficial)</h2>
+      <p class="text-slate-600 dark:text-slate-300 mt-2">Common activation questions answered.</p>
+    </div>
+    <div class="mt-8 space-y-3">
+      <details class="group rounded-2xl border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-800/60" open>
+        <summary class="cursor-pointer list-none flex items-center justify-between">
+          <span class="font-semibold">How long does activation take?</span><span>▾</span>
+        </summary>
+        <p class="mt-3 text-slate-700 dark:text-slate-300">Usually 3–5 minutes if your details match. Verification emails/SMS may take a minute to arrive.</p>
+      </details>
+      <details class="group rounded-2xl border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-800/60">
+        <summary class="cursor-pointer list-none flex items-center justify-between">
+          <span class="font-semibold">Can I activate without my Member ID?</span><span>▾</span>
+        </summary>
+        <p class="mt-3 text-slate-700 dark:text-slate-300">Some users can verify with SSN last 4 + DOB + ZIP. If that fails, contact UHC support for help locating your ID.</p>
+      </details>
+      <details class="group rounded-2xl border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-800/60">
+        <summary class="cursor-pointer list-none flex items-center justify-between">
+          <span class="font-semibold">Is this site official?</span><span>▾</span>
+        </summary>
+        <p class="mt-3 text-slate-700 dark:text-slate-300">No. This is an unofficial educational guide. For activation or sign-in, use the official portal at <a class="underline" href="https://activate.uhc.com/" target="_blank" rel="noopener">activate.uhc.com</a>.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <section id="support" class="max-w-7xl mx-auto px-4 py-14 reveal" aria-labelledby="support-heading">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-2">
+        <h2 id="support-heading" class="text-2xl md:text-3xl font-bold">Need official support?</h2>
+        <p class="text-slate-600 dark:text-slate-300 mt-2">
+          Visit <a class="uhc-blue-t font-semibold" href="https://www.uhc.com/" target="_blank" rel="noopener">uhc.com</a> or the official activation portal.
+        </p>
+        <div class="mt-6 grid sm:grid-cols-3 gap-3">
+          <a class="px-4 py-3 rounded-xl text-white text-center font-semibold uhc-blue" href="https://activate.uhc.com/" target="_blank" rel="noopener">Official activation</a>
+          <a class="px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 text-center" href="#uhc-errors">Fix common issues</a>
+          <a class="px-4 py-3 rounded-xl text-white text-center font-semibold uhc-green" href="https://www.uhc.com/member-resources" target="_blank" rel="noopener">Member resources</a>
+        </div>
+      </div>
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-800/60">
+        <h3 class="font-semibold">Quick links</h3>
+        <ul class="mt-3 space-y-2 text-slate-600 dark:text-slate-300">
+          <li><a class="hover:underline" href="https://activate.uhc.com/" target="_blank" rel="noopener">Activate account</a></li>
+          <li><a class="hover:underline" href="https://www.uhc.com/sign-in" target="_blank" rel="noopener">UHC sign-in</a></li>
+          <li><a class="hover:underline" href="https://www.uhc.com/contact-us" target="_blank" rel="noopener">Contact UHC</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-8 text-center text-sm text-slate-500" role="contentinfo">
+    <div class="max-w-7xl mx-auto px-4">
+      © <span id="year"></span> UHC Activation Help (Unofficial). Demo for educational purposes.
+      <div class="mt-2 text-xs">
+        <strong>Disclaimer:</strong> This is an unofficial educational guide and is not affiliated with or endorsed by UnitedHealthcare. 
+        We do not request, process, or store personal or protected health information (PHI). For activation or sign-in, use the official portal at <a href="https://activate.uhc.com/" target="_blank" rel="noopener">activate.uhc.com</a>.
+      </div>
+      <div class="mt-2 text-xs">
+        <a class="underline" href="/sitemap.xml">Sitemap</a> • <a class="underline" href="/robots.txt">Robots.txt</a> • <a class="underline" href="#accessibility">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Help Chat (static FAQ bot, no data collection) -->
+  <button id="chatToggle" class="fixed bottom-6 left-6 z-40 rounded-full p-4 text-white shadow-lg hover:shadow-xl focus:outline-none uhc-blue" aria-label="Open help">💬</button>
+  <div id="chatPanel" class="fixed bottom-24 left-6 w-[min(92vw,380px)] max-h-[70vh] hidden z-40 rounded-2xl overflow-hidden shadow-xl" aria-live="polite">
+    <div class="glass border border-slate-200/60 dark:border-slate-800/60">
+      <header class="px-4 py-3 flex items-center justify-between">
+        <div class="font-semibold">Activation Helper (Unofficial)</div>
+        <button id="chatClose" class="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Close help">✕</button>
+      </header>
+      <div id="chatLog" class="px-4 py-3 space-y-3 overflow-y-auto" style="max-height: 52vh">
+        <div class="text-sm text-slate-500">Ask about <span class="font-medium">activation, verification codes, or Member ID</span>.</div>
+      </div>
+      <form id="chatForm" class="p-3 border-t border-slate-200/60 dark:border-slate-800/60 flex items-center gap-2" onsubmit="chatReply(event)" aria-label="Activation Q&A helper">
+        <input id="chatInput" class="flex-1 px-3 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 bg-white/80 dark:bg-slate-800/60 focus:outline-none" placeholder="Type your question…" />
+        <button class="px-3 py-2 rounded-xl text-white font-semibold uhc-blue">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile menu
+    const mBtn = document.getElementById('mBtn');
+    const mMenu = document.getElementById('mMenu');
+    if (mBtn) mBtn.addEventListener('click', () => mMenu.classList.toggle('hidden'));
+
+    // Year
+    const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} })
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+    // Chat (static helper)
+    const chatToggle = document.getElementById('chatToggle');
+    const chatPanel  = document.getElementById('chatPanel');
+    const chatClose  = document.getElementById('chatClose');
+    const chatLog    = document.getElementById('chatLog');
+
+    function addBubble(text, me=false){
+      const wrap = document.createElement('div');
+      wrap.className = 'flex ' + (me ? 'justify-end' : 'justify-start');
+      const bubble = document.createElement('div');
+      bubble.className = 'max-w-[80%] px-3 py-2 rounded-2xl ' + (me ? 'uhc-blue text-white rounded-br-md' : 'bg-slate-100 dark:bg-slate-800');
+      bubble.textContent = text;
+      wrap.appendChild(bubble);
+      chatLog.appendChild(wrap);
+      chatLog.scrollTop = chatLog.scrollHeight;
+    }
+
+    function answerFor(text){
+      const s = text.toLowerCase();
+      if (s.includes('activate') || s.includes('start')) return 'Use the official portal at activate.uhc.com → verify identity → create login → confirm code → sign in.';
+      if (s.includes('id') || s.includes('member')) return 'Find your Member ID on your welcome email/package or ID card. Your employer/plan admin can provide it.';
+      if (s.includes('code') || s.includes('verification')) return 'Check spam/junk, wait 1–2 minutes, confirm contact is correct, or try SMS vs email.';
+      if (s.includes('password')) return 'Use 12+ characters with a mix of types; avoid reuse; store in a reputable password manager.';
+      if (s.includes('official')) return 'This is an unofficial guide. For sign-in or activation, use activate.uhc.com.';
+      return 'Ask about activation steps, verification codes, or where to find your Member ID.';
+    }
+
+    function chatReply(e){
+      e.preventDefault();
+      const input = document.getElementById('chatInput');
+      const text = input.value.trim(); if (!text) return;
+      addBubble(text, true);
+      setTimeout(()=> addBubble(answerFor(text)), 250);
+      input.value='';
+    }
+    chatToggle.addEventListener('click', ()=> chatPanel.classList.toggle('hidden'));
+    chatClose.addEventListener('click', ()=> chatPanel.classList.add('hidden'));
+  </script>
+</body>
+</html>
